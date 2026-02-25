@@ -87,3 +87,25 @@ optional: python demo/camera_dual_demo.py
 IRIS does not compress video.
 
 **It removes it.**
+## 🔴 Live Proof — No Video, Only Intent
+
+### Sender vs Receiver (Live, Side-by-Side)
+
+> Left: Receiver avatar reconstructed purely from intent  
+> Right: Sender webcam (NOT transmitted)
+
+![IRIS Sender vs Receiver](images/sender_receiver_side_by_side.png)
+
+---
+
+### 📉 Bandwidth Proof (Measured Live)
+
+- Bandwidth: **~0.002–0.01 kbps**
+- Updates/sec: **20+**
+- Frames sent: **0**
+- Pixels sent: **0**
+
+![IRIS Bandwidth Proof](images/bandwidth_proof.png)
+
+> This is not compression.  
+> This is **removal of video as a concept**.
